@@ -23,18 +23,18 @@ melhor combinação de medidas de complexidade para esta tarefa (buscar na liter
     vai ser usado as mesmas tabelas geradas, e as divisões feitas anteriormente no padrão 70/30 armazenadas no arquivo .pkl
 - armazenar o resultado desses treinamentos em uma tabela no padrão citado anteriormente
 - criar modelos:
-    DT Decision Tree Classifier
-    DTR Decision Tree Regressor
-    MLP(R)-500 Multi-layer Perceptron classifier (or regressor), Hidden layer=500.
-    MLP(R)-100-100-100 Multi-layer Perceptron classifier (or regressor), Hidden layers=100,100,100.
-    MLP(R)-500-500-500 Multi-layer Perceptron classifier (or regressor), Hidden layers=500,500,500.
-    SVM Linear Support Vector Classification.
-    SVM-RBF C-Support Vector Classification, C=1.0, Kernel=RBF, Gamma=Scale.
-    SVR-RBF Epsilon-Support Vector Regression, C=1.0, Kernel=RBF, Gamma=Scale.
-    SVM-Sigmoid C-Support Vector Classification, C=1.0, Kernel=Sigmoid, Gamma=Scale.
-    SVR-Sigmoid Epsilon-Support Vector Regression, C=1.0, Kernel=Sigmoid, Gamma=Scale.
-    SVM-Linear C-Support Vector Classification, C=1.0, Kernel=Linear, Gamma=scale.
-    SVR-Linear Epsilon-Support Vector Regression, C=1.0, Kernel=Linear, Gamma=Scale.
+    OK DT Decision Tree Classifier
+    OK DTR Decision Tree Regressor
+    OK MLP(R)-500 Multi-layer Perceptron classifier (or regressor), Hidden layer=500.
+    OK MLP(R)-100-100-100 Multi-layer Perceptron classifier (or regressor), Hidden layers=100,100,100.
+    OK MLP(R)-500-500-500 Multi-layer Perceptron classifier (or regressor), Hidden layers=500,500,500.
+    OK SVM Linear Support Vector Classification.
+    OK SVM-RBF C-Support Vector Classification, C=1.0, Kernel=RBF, Gamma=Scale.
+    OK SVR-RBF Epsilon-Support Vector Regression, C=1.0, Kernel=RBF, Gamma=Scale.
+    OK SVM-Sigmoid C-Support Vector Classification, C=1.0, Kernel=Sigmoid, Gamma=Scale.
+    OK SVR-Sigmoid Epsilon-Support Vector Regression, C=1.0, Kernel=Sigmoid, Gamma=Scale.
+    OK SVM-Linear C-Support Vector Classification, C=1.0, Kernel=Linear, Gamma=scale.
+    OK SVR-Linear Epsilon-Support Vector Regression, C=1.0, Kernel=Linear, Gamma=Scale.
     NaiveBayes Gaussian Naive Bayes algorithm for classification.
     kNN Classifier implementing the k-nearest neighbors vote, k=5.
     kNNR Regression based on k-nearest neighbors, k=5.
