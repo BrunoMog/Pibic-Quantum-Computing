@@ -35,17 +35,16 @@ melhor combinação de medidas de complexidade para esta tarefa (buscar na liter
     OK SVR-Sigmoid Epsilon-Support Vector Regression, C=1.0, Kernel=Sigmoid, Gamma=Scale.
     OK SVM-Linear C-Support Vector Classification, C=1.0, Kernel=Linear, Gamma=scale.
     OK SVR-Linear Epsilon-Support Vector Regression, C=1.0, Kernel=Linear, Gamma=Scale.
-    NaiveBayes Gaussian Naive Bayes algorithm for classification.
-    kNN Classifier implementing the k-nearest neighbors vote, k=5.
-    kNNR Regression based on k-nearest neighbors, k=5.
-    NearestCentroid Nearest centroid classifier, metric=euclidean.
-    LogisticRegression Logistic Regression classifier.
-    RF Random forest classifier, n estimators=10.
-    Ensemble-AB AdaBoost classifier, estimator=DecisionTreeClassifier, n estimators=50.
-    Ensemble-Bg Bagging classifier, estimator=DecisionTreeClassifier, n estimators=10.
-    Ensemble-GB Gradient Boosting for classification.
-    Adaboost AdaBoost regressor, estimator = DecisionTreeRegressor, n estimators=50.
-    Bagging Bagging classifier. estimator=DecisionTreeClassifier, n estimartors=10.
+    OK NaiveBayes Gaussian Naive Bayes algorithm for classification.
+    OK kNN Classifier implementing the k-nearest neighbors vote, k=5.
+    OK kNNR Regression based on k-nearest neighbors, k=5.
+    OK NearestCentroid Nearest centroid classifier, metric=euclidean.
+    OK LogisticRegression Logistic Regression classifier.
+    OK RF Random forest classifier, n estimators=10.
+    OK Ensemble-AB AdaBoost classifier, estimator=DecisionTreeClassifier, n estimators=50.
+    OK Ensemble-Bg Bagging classifier, estimator=DecisionTreeClassifier, n estimators=10.
+    OK Ensemble-GB Gradient Boosting for classification.
+    OK Adaboost AdaBoost regressor, estimator = DecisionTreeRegressor, n estimators=50.
     Linear Regression Ordinary least squares Linear Regression.
 
 -adicionar possíveis modelos bem conhecidos e que tenham um bom poder de classificação
