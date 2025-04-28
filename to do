@@ -18,7 +18,6 @@ melhor combinação de medidas de complexidade para esta tarefa (buscar na liter
 - simular 30 circutios diferentes com pennylane, serão circuitos simples, 2 qubits e gerar resultados para teste e checagem da minha , estarão na pasta ansatz
 - definir um padrão para o armazenamento da estrutura do ansatz
 - os dados que serão recebidos serão colunas contendo as métricas de complexidade dos dados usados para treinar os ansatz 
-- aplicar normalização nas variáveis numéricas
 - fazer o treinamento desses ansatz para as bases de dados criadas sinteticamente na atividade anterior
     vai ser usado as mesmas tabelas geradas, e as divisões feitas anteriormente no padrão 70/30 armazenadas no arquivo .pkl
 - armazenar o resultado desses treinamentos em uma tabela no padrão citado anteriormente
@@ -35,18 +34,17 @@ melhor combinação de medidas de complexidade para esta tarefa (buscar na liter
     OK SVR-Sigmoid Epsilon-Support Vector Regression, C=1.0, Kernel=Sigmoid, Gamma=Scale.
     OK SVM-Linear C-Support Vector Classification, C=1.0, Kernel=Linear, Gamma=scale.
     OK SVR-Linear Epsilon-Support Vector Regression, C=1.0, Kernel=Linear, Gamma=Scale.
-    NaiveBayes Gaussian Naive Bayes algorithm for classification.
-    kNN Classifier implementing the k-nearest neighbors vote, k=5.
-    kNNR Regression based on k-nearest neighbors, k=5.
-    NearestCentroid Nearest centroid classifier, metric=euclidean.
-    LogisticRegression Logistic Regression classifier.
-    RF Random forest classifier, n estimators=10.
-    Ensemble-AB AdaBoost classifier, estimator=DecisionTreeClassifier, n estimators=50.
-    Ensemble-Bg Bagging classifier, estimator=DecisionTreeClassifier, n estimators=10.
-    Ensemble-GB Gradient Boosting for classification.
-    Adaboost AdaBoost regressor, estimator = DecisionTreeRegressor, n estimators=50.
-    Bagging Bagging classifier. estimator=DecisionTreeClassifier, n estimartors=10.
-    Linear Regression Ordinary least squares Linear Regression.
+    OK NaiveBayes Gaussian Naive Bayes algorithm for classification.
+    OK kNN Classifier implementing the k-nearest neighbors vote, k=5.
+    OK kNNR Regression based on k-nearest neighbors, k=5.
+    OK NearestCentroid Nearest centroid classifier, metric=euclidean.
+    OK LogisticRegression Logistic Regression classifier.
+    OK RF Random forest classifier, n estimators=10.
+    OK Ensemble-AB AdaBoost classifier, estimator=DecisionTreeClassifier, n estimators=50.
+    OK Ensemble-Bg Bagging classifier, estimator=DecisionTreeClassifier, n estimators=10.
+    OK Ensemble-GB Gradient Boosting for classification.
+    OK Adaboost AdaBoost regressor, estimator = DecisionTreeRegressor, n estimators=50.
+    OK Linear Regression Ordinary least squares Linear Regression.
 
 -adicionar possíveis modelos bem conhecidos e que tenham um bom poder de classificação
 -biblioteclas para utilizar nos modelos, possívelmente pytorhc como prioridade, como secundárias scikit-learn e talvez tensorflow
