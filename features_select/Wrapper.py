@@ -178,7 +178,7 @@ class ForwardFeatureSelector:
             score = self._evaluate_model(X[:, current_features], y)
 
             if self.verbose > 0:
-                print(f"Testing feature set: {current_features}, score: {score}")
+                print(f"Testing feature set: {current_features}")
             
             #tem métricas como MSE que desejam ser minimizadas para regressão
             if self.maior_score:
@@ -191,8 +191,6 @@ class ForwardFeatureSelector:
                     best_score = score
                     best_feature = feature                
 
-        print(best_feature)
-        print(best_score)    
         return best_feature, best_score
 
     def fit(
@@ -307,7 +305,7 @@ class BackwardFeatureSelector(ForwardFeatureSelector):
             score = self._evaluate_model(X[:, current_features], y)
             
             if self.verbose > 0:
-                print(f"Testando subconjunto: {current_features}, score: {score}")
+                print(f"Testando subconjunto: {current_features}")
 
             # Lógica de maximização/minimização
             if self.maior_score:
