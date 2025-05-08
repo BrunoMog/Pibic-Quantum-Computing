@@ -46,7 +46,6 @@ melhor combinação de medidas de complexidade para esta tarefa (buscar na liter
     OK Adaboost AdaBoost regressor, estimator = DecisionTreeRegressor, n estimators=50.
     OK Linear Regression Ordinary least squares Linear Regression.
 
--adicionar possíveis modelos bem conhecidos e que tenham um bom poder de classificação
 -biblioteclas para utilizar nos modelos, possívelmente pytorhc como prioridade, como secundárias scikit-learn e talvez tensorflow
 -criar os modelos de regressão e classificação, estarão armazenados na pasta models
 -para classificação retornar o melhor ansatz que foi previsto, e também retornar os 3 melhores ansatz
